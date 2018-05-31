@@ -168,7 +168,7 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
+.auth-image{
   float: left;
   width: 200px;
   height: auto;
@@ -228,12 +228,11 @@ input[type=submit] {
     
   }
   .main-section{
-    margin: 0 0 180px;
-    
+    margin: 0 10 180px;
   }
 
   #logo{
-    width: 112%;
+    width: 164%;
     margin-left: -50px;
   }
   nav{
@@ -243,6 +242,7 @@ input[type=submit] {
   }
   .auth-image{
     width: 523px;
+
   }
 
   
