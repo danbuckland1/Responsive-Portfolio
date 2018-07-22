@@ -219,35 +219,20 @@ input[type=submit] {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 640px){
-  #masthead{
-    position: static;
-  }
-  #main-container{
-    padding: 5px;
-    
+@media screen and (max-width: 980px){
+
+  .container{
+    width: 61%;
+    margin: 0 50px;
   }
   .main-section{
-    margin: 0 10 180px;
+    margin: 0 0 445px;
   }
 
-  #logo{
-    width: 164%;
-    margin-left: -50px;
+  nav {
+    margin-right: -275px;
   }
-  nav{
-    float: left;
-    margin-left: 143px;
-  
-  }
-  .auth-image{
-    width: 523px;
-
-  }
-
-  
 }
-
 
 @media screen and (max-width: 768px){
   .main-section{
@@ -266,16 +251,33 @@ input[type=submit] {
 
 }
 
-@media screen and (max-width: 980px){
-  .container{
-    width: 61%;
-    margin: 0 50px;
+
+@media screen and (max-width: 640px){
+  #masthead{
+    position: static;
+  }
+  #main-container{
+    padding: 5px;
+    margin-left: 15px;
+    
   }
   .main-section{
-    margin: 0 0 445px;
+    margin: 0 10 180px;
   }
 
-  nav {
-    margin-right: -275px;
+  #logo{
+    width: 164%;
+    margin-left: -200px;
   }
+  nav{
+    float: left;
+    margin-left: 143px;
+  
+  }
+  .auth-image{
+    width: 523px;
+
+  }
+
+  
 }
